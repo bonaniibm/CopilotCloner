@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "CopilotCloner": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7182"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "DockerfileRunArguments": "--init",
+      "httpPort": 31537,
+      "useSSL": false
+    }
+  }
+}
